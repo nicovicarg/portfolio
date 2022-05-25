@@ -1,7 +1,12 @@
 body {
+    width: 375px;
+    margin: 0px;
+}
+main {
     width: 100%;
 }
 #navBar {
+    width: 100%;
     background: black;
     color: white;
 }
@@ -9,7 +14,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+    margin: 0px;
 }
 
 li {
@@ -25,4 +30,12 @@ li {
 #about {
     background: gray;
     height: 933px;
+}
+
+#about p {
+    margin: 0px;
+}
+
+#proyects img {
+    width: 100%;
 }
